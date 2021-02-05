@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+.logo {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.nav_links {
+  display: inline-flex;
+  padding: 15px 10px;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.nav_links li a {
+  margin: 10px;
+  color: black;
+}
+
+.btn_blue {
+  border-color: blue;
+  color: blue;
+  margin: -5px;
+}
+
+.burger {
+  font-size: 20px;
+  color: blue;
+  display: none;
+}
+/* fine header  */
+
+
+@media screen and (max-width: 992px) {
+  .nav_links {
+    display: none;
+  }
+  .logo {
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .burger {
+    display: block;
+    font-size: 40px;
+    color: blue;
+    float: right;
+  }
+}
