@@ -21,6 +21,10 @@
   color: black;
 }
 
+.arrows {
+  margin: 3px;
+}
+
 .burger {
   font-size: 20px;
   color: blue;
@@ -47,7 +51,16 @@
 
 /* buttons */
 
-/* section blue- */
+/* utility/ */
+.link_blue {
+  color: blue;
+}
+
+
+
+/* utility */
+
+/* section jumbo- */
 .bg_blue {
   height: 55vh;
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
@@ -58,7 +71,8 @@
 }
 
 .form_top_right {
-  width: 100%;
+  height: 300px;
+  width: 400px;
   background-color: white;
   border-radius: 5px;
   margin-top: 30px;
@@ -79,7 +93,23 @@ p {
   width: 80%;
   margin: 0 30px 10px
 }
-/* fine section blue */
+/* fine section jumbo */
+
+/* section loghi */
+.bg_lightgrey {
+  background-color: #f3f5f9;
+  height: 30vh;
+}
+
+.text_loghi {
+  margin-top: 20px;
+  color: grey;
+}
+
+.customers {
+  height: 15vh;
+}
+/* fine sectio loghi */
 
 
 
@@ -101,5 +131,8 @@ p {
     font-size: 40px;
     color: blue;
     float: right;
+  }
+  .form_top_right {
+    width: 100%;
   }
 }
