@@ -14,60 +14,63 @@
     <header>
       <div class="container">
         <div class="row">
-        <nav>
-          <div class="col-md-3 logo_left">
-            <img class="logo"src="img/logo.png" alt="logo ocean">
-          </div>
-          <div class="col-md-5">
-            <ul class="nav_links">
-              <li><a href="#"></a>Products</li><i class="arrows fas fa-angle-down"></i>
-              <li><a href="#"></a>Customers</li>
-              <li><a href="#"></a>Comunity</li><i class="arrows fas fa-angle-down"></i>
-              <li><a href="#"></a>Pricing</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="nav_links">
-              <li><a href="#">Docs</a></li>
-              <li><a href="#">Support</a></li><i class="arrows fas fa-angle-down"></i>
-              <li><a href="#">Login</a></li>
-              <li><button type="button" class="btn btn-default btn_blue">Sign Up</button></li>
-            </ul>
-            <div class="hamburger">
-              <i class="fas fa-bars burger"></i>
+          <nav>
+            <div class="col-xs-3">
+              <img class="logo"src="img/logo.png" alt="logo ocean">
+            </div>
+            <div class="visible-md-block">
+              <div class="col-md-5 visible-md">
+                <ul class="nav_links">
+                  <li><a href="#"></a>Products</li><i class="arrows fas fa-angle-down"></i>
+                  <li><a href="#"></a>Customers</li>
+                  <li><a href="#"></a>Comunity</li><i class="arrows fas fa-angle-down"></i>
+                  <li><a href="#"></a>Pricing</li>
+                </ul>
+              </div>
+              <div class="col-md-4 visible-md">
+                <ul class="nav_links">
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Support</a></li><i class="arrows fas fa-angle-down"></i>
+                  <li><a href="#">Login</a></li>
+                  <li><button type="button" class="btn btn-default btn_blue">Sign Up</button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-9 text-right hidden-md hidden-lg">
+              <div class="hamburger visible-xs visible-sm">
+                <i class="fas fa-bars burger"></i>
+                </div>
             </div>
           </div>
-        </nav>
+          </nav>
         </div>
       </div>
     </header>
 <!-- fine header -->
 <!-- section jumbo/ -->
-    <section>
-      <div class="container-fluid bg_blue">
-        <div class="container">
-          <div class="col-md-7">
-            <div class="text_top_left">
-            <h1>Lorem ipsum dolor sit amet.</h1>
+    <section class="bg_blue">
+      <div class="container">
+        <div class="col-md-7 col-xs-4">
+          <div class="text_top_left">
+            <h1>The simplest cloud platform for developers & teams</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
           </div>
-          <div class="col-md-5">
-            <div class="form_top_right">
-              <h4>Deploy your app in seconds</h4>
-              <h4>Get started now</h4>
-              <form>
-                <div class="form-group form_area">
-                  <input type="Email" class="form-control" id="exampleInputEmail1" aria-describedby="Email" placeholder="Email">
-                </div>
-                <div class="form-group form_area">
-                    <input type="Password" class="form-control" id="exampleInputEmail1" aria-describedby="Password" placeholder="Password">
-                </div>
-              </form>
-              <button type="button" class="btn_account btn btn-primary btn-lg">Create your account</button>
-              <button type="button" class="btn btn-light btn_account"><img class="btn_google" src="img/google-icon.png" alt="icon_google">Sign up with google</button>
-              <p>By signing up you agree to the Terms of Service.</p>
-            </div>
+        </div>
+        <div class="col-md-5 col-xs-4">
+          <div class="form_top_right">
+            <h4>Deploy your app in seconds</h4>
+            <h4>Get started now</h4>
+            <form>
+              <div class="form-group form_area">
+                <input type="Email" class="form-control" id="exampleInputEmail1" aria-describedby="Email" placeholder="Email">
+              </div>
+              <div class="form-group form_area">
+                <input type="Password" class="form-control" id="exampleInputEmail1" aria-describedby="Password" placeholder="Password">
+              </div>
+            </form>
+            <button type="button" class="btn_account btn btn-primary btn-lg">Create your account</button>
+            <button type="button" class="btn btn-light btn_account"><img class="btn_google" src="img/google-icon.png" alt="icon_google">Sign up with google</button>
+            <p>By signing up you agree to the Terms of Service.</p>
           </div>
         </div>
       </div>
@@ -77,11 +80,11 @@
     <section>
       <div class="container-fluid bg_lightgrey">
         <div class="row">
-          <div class="col-12-xs col-12-sm text-center text_loghi">
+          <div class="col-2-xs col-2-sm text-center text_loghi">
             <h6>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
           </div>
-          <div class="row">
-            <div class="col-12-xs col-12-sm customers text-center">
+          <div class="container customers">
+            <div class="col-xs-4 col-sm-12 text-center">
               <img src="img/logo_docker.svg" alt="docker">
               <img src="img/logo_gitlab.svg" alt="gitlab">
               <img src="img/logo_slack.svg" alt="slack">
@@ -90,13 +93,35 @@
               <img src="img/logo_splunk.svg" alt="splunk">
             </div>
           </div>
-          <div class="row">
-            <div class="col-12-xs col-12-sm text-center link_customers">
+          <div class="container">
+            <div class="col-xs-2 col-sm-12 text-center link_customers">
               <a class="link_blue"href="#">View customer stories</a>
               <i class="link_blue fas fa-chevron-right"></i>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="deploy">
+      <div class="container">
+        <div class="col-sm-12 text-center">
+          <h3>Deploy and scale seamlessly</h3>
+          <p>Our optimized configuration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+        </div>
+        <div class="container ">
+          <div class="col-sm-4">
+            <div class="list-group">
+              <li>Deploy</li>
+              <li>Manage</li>
+              <li>Secure</li>
+              <li>Scale</li>
+              <li>Monitor</li>
+            </div>
+          </div>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4"></div>
+        </div>
+
       </div>
     </section>
   </body>
