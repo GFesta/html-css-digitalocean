@@ -56,7 +56,9 @@
   color: blue;
 }
 
-
+h5 {
+  font-weight: bold;
+}
 
 /* utility */
 
@@ -141,6 +143,31 @@
 .arrows {
   font-size: 25px;
 }
+/* fine section developers */
+/* section features */
+#features {
+  margin-top: 20px;
+}
+
+.business {
+  margin-top: 35px;
+}
+/* fine section features */
+/* section service */
+#service {
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+.table_city {
+  margin-top: 25px;
+  width: 50%;
+}
+/* fine section service */
+
+
+
+
 
 
 @media screen and (max-width: 992px) {
