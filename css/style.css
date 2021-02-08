@@ -75,13 +75,12 @@
   border-radius: 5px;
   margin-top: 30px;
 }
-.form_top_right h4,
-p {
+.form_top_right h4 {
   text-align: center;
   padding-top: 15px;
 }
 
-.form_top_right p {
+.form_top_right  {
   font-size: 10px;
   padding: 5px;
 }
@@ -113,15 +112,35 @@ p {
 }
 /* fine section loghi */
 /* section deploy */
-.deploy {
+#deploy {
   width: 100%;
 }
 
+.list_left_deploy li {
+  margin-left: 30px;
+  margin: 20px;
+  list-style: none;
+}
+/* fine section deploy */
+/* section developers */
+#developers {
+  width: 100%;
+  height: 500px;
+  background-color: #f3f5f9;
+}
 
+.text_developers {
+  padding-top: 15px;
+}
 
+.screenshot img {
+  max-width: 50%;
+  height: auto;
+}
 
-
-
+.arrows {
+  font-size: 25px;
+}
 
 
 @media screen and (max-width: 992px) {
