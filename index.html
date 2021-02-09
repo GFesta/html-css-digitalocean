@@ -21,16 +21,16 @@
             <div class="visible-md-block">
               <div class="col-md-5 visible-md">
                 <ul class="nav_links">
-                  <li><a href="#"></a>Products</li><i class="arrows fas fa-angle-down"></i>
+                  <li><a href="#"></a>Products</li><i class="arrow_down fas fa-angle-down"></i>
                   <li><a href="#"></a>Customers</li>
-                  <li><a href="#"></a>Comunity</li><i class="arrows fas fa-angle-down"></i>
+                  <li><a href="#"></a>Comunity</li><i class="arrow_down fas fa-angle-down"></i>
                   <li><a href="#"></a>Pricing</li>
                 </ul>
               </div>
               <div class="col-md-4 visible-md">
                 <ul class="nav_links">
                   <li><a href="#">Docs</a></li>
-                  <li><a href="#">Support</a></li><i class="arrows fas fa-angle-down"></i>
+                  <li><a href="#">Support</a></li><i class="arrow_down fas fa-angle-down"></i>
                   <li><a href="#">Login</a></li>
                   <li><button type="button" class="btn btn-default btn_blue">Sign Up</button></li>
                 </ul>
@@ -50,13 +50,13 @@
 <!-- section jumbo/ -->
     <section class="bg_blue">
       <div class="container">
-        <div class="col-md-7 col-xs-4">
-          <div class="text_top_left">
+        <div class="col-sm-7 col-xs-12">
+          <div class="text_top_left col-xs-12">
             <h1>The simplest cloud platform for developers & teams</h1>
             <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make Managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
           </div>
         </div>
-        <div class="col-md-5 col-xs-4">
+        <div class="col-sm-5 col-xs-12">
           <div class="form_top_right">
             <h4>Deploy your app in seconds</h4>
             <h4>Get started now</h4>
@@ -77,20 +77,20 @@
     </section>
     <!-- fine section jumbo -->
     <!-- section loghi -->
-    <section id="bg_lightgrey">
+    <section id="loghi">
       <div class="container-fluid">
         <div class="row">
           <div class="col-2-xs col-2-sm text-center text_loghi">
             <h6>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
           </div>
           <div class="container customers">
-            <div class="col-xs-4 col-sm-12 text-center">
-              <img src="img/logo_docker.svg" alt="docker">
-              <img src="img/logo_gitlab.svg" alt="gitlab">
-              <img src="img/logo_slack.svg" alt="slack">
-              <img src="img/logo_hashicorp.svg" alt="hashicorp">
-              <img src="img/logo_hashicorp.svg" alt="hashicorp">
-              <img src="img/logo_splunk.svg" alt="splunk">
+            <div class=" col-sm-12 text-center">
+              <img class="customers_img"src="img/logo_docker.svg" alt="docker">
+              <img class="customers_img"src="img/logo_gitlab.svg" alt="gitlab">
+              <img class="customers_img"src="img/logo_slack.svg" alt="slack">
+              <img class="customers_img"src="img/logo_hashicorp.svg" alt="hashicorp">
+              <img class="customers_img"src="img/logo_hashicorp.svg" alt="hashicorp">
+              <img class="customers_img"src="img/logo_splunk.svg" alt="splunk">
             </div>
           </div>
           <div class="container">
@@ -113,7 +113,7 @@
         <div class="container ">
           <div class="col-sm-4">
             <div class="list-group list_left_deploy">
-              <ul class="list-group">
+              <ul class="list-group border-list">
                 <li>Deploy</li>
                 <li>Manage</li>
                 <li>Secure</li>
@@ -195,7 +195,7 @@
             <tr>
               <td>AMS2</td>
               <td>Amsterdam, Netherlands</td>
-              <td><a class="link_city"href="#">Test Speed</a> <i class="fas fa-angle-right"></i></td>
+              <td><a class="link_city"href="#">Test Speed</a> <i class=" fas fa-angle-right"></i></td>
             </tr>
             <tr>
               <td>AMS3</td>
@@ -266,10 +266,22 @@
       <div class="container text-center">
         <h2>Development teams love DigitalOcean</h2>
       </div>
-      <div class="container screenshot text-center">
-        <i class="arrows_black fas fa-chevron-left arrows"></i>
-        <img src="img/screenshoot_2.png" alt="screenshot">
-        <i class="arrows_black fas fa-chevron-right arrows"></i>
+      <div class="container box_rockerbox text-center">
+        <div class="col-sm-3 col-xs-2">
+          <i class="arrows_black arrow_team fas fa-chevron-left arrows"></i>
+        </div>
+        <div class="col-sm-6 col-xs-8 text-center">
+            <img class="img_rockerbox"src="img/rockerbox-logo-51462da2.png" alt="rockerbox">
+            <row class="text_rockerbox">
+              <h6>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient"</h6>
+              <p><strong>Rick O'Toole</strong></p>
+              <p>strongCo-founder and CTO</p>
+              <a href="#">Read story</a><i class="single_arrow fas fa-chevron-right arrows"></i>
+            </row>
+        </div>
+        <div class="col-sm-3 col-sx-2">
+          <i class="arrows_black arrow_team fas fa-chevron-right arrows"></i>
+        </div>
       </div>
     </section>
     <!-- fine sectione teams -->
@@ -297,9 +309,8 @@
             <i class="fab fa-youtube"></i>
             <i class="fab fa-linkedin"></i>
           </div>
-
         </div>
-        <div class="bold_links_footer col-sm-2 col-xs-2">
+        <div class="bold_links_footer col-sm-2 col-xs-12">
           <ul>
             <li>Company</li>
             <li>About</li>
@@ -314,7 +325,7 @@
             <li>Legal & Security</li>
           </ul>
         </div>
-        <div class="bold_links_footer col-sm-2 col-xs-2">
+        <div class="bold_links_footer col-sm-2 col-xs-12">
           <ul>
             <li>Products</li>
             <li>Droplets</li>
@@ -330,7 +341,7 @@
             <li>Release Notes</li>
           </ul>
         </div>
-        <div class="bold_links_footer col-sm-2 col-xs-2">
+        <div class="bold_links_footer col-sm-2 col-xs-12">
           <ul>
             <li>Community</li>
             <li>Tutorials</li>
@@ -345,7 +356,7 @@
             <li>Open Source</li>
           </ul>
         </div>
-        <div class="bold_links_footer col-sm-2 col-xs-2">
+        <div class="bold_links_footer col-sm-2 col-xs-12">
           <ul>
             <li>Support</li>
             <li>Contact support</li>
@@ -356,13 +367,5 @@
       </div>
     </footer>
     <!-- fine footer -->
-
-
-
-
-
-
-
-
   </body>
 </html>
