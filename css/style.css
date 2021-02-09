@@ -10,6 +10,10 @@
   margin-top: 10px;
 }
 
+nav {
+  background-color: white;
+}
+
 .nav_links {
   display: inline-flex;
   padding: 15px 10px;
