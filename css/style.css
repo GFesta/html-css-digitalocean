@@ -35,6 +35,10 @@ nav {
 
 /* fine header  */
 
+main {
+  margin: 80px 0;
+}
+
 /* buttons */
 .btn_blue {
   border-color: blue;
