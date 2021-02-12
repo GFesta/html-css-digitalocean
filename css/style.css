@@ -130,7 +130,23 @@ h2 {
   color: grey;
 }
 
-.customers {
+.customers_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.customers_logo li {
+  /* width: 200px; */
+  /* flex-basis: 200px; */
+  flex-basis: calc(100% / 6);
+  padding: 10px 20px;
+}
+
+.customers_logo img {
   width: 100%;
 }
 
@@ -294,16 +310,16 @@ h6 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
   .table_city {
     margin-top: 25px;
     width: 100%;
 }
 
-   .customers_img {
-     width: 20%;
-   }
+  .customers_logo li {
+  flex-basis: calc(100% / 2);
+}
 
   #footer_blue {
     width: 100%;
